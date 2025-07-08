@@ -1,0 +1,192 @@
+.inicio-sesi-n,
+.inicio-sesi-n * {
+  box-sizing: border-box;
+}
+.inicio-sesi-n {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.chrome-browser-bar {
+  background: var(--schemes-surface, #fef7ff);
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1440px;
+  height: 68px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 0.59px 0px 0px rgba(0, 0, 0, 0.15),
+    inset 0px -0.59px 0px 0px rgba(0, 0, 0, 0.05);
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.back {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.forward {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.refresh {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.address-bar {
+  background: #d5d5d5;
+  border-radius: 46.08px;
+  padding: 6px 16px 6px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.url {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.lock {
+  flex-shrink: 0;
+  width: 15.36px;
+  height: 15.36px;
+  position: relative;
+  overflow: visible;
+}
+.text {
+  color: var(--schemes-on-surface, #1d1b20);
+  text-align: left;
+  font-family: var(--m3-body-large-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--m3-body-large-font-size, 16px);
+  line-height: var(--m3-body-large-line-height, 24px);
+  letter-spacing: var(--m3-body-large-letter-spacing, 0.5px);
+  font-weight: var(--m3-body-large-font-weight, 400);
+  position: relative;
+  width: 1136.64px;
+}
+.star {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.avatar {
+  background: var(--schemes-outline, #79747e);
+  border-radius: 109.09px;
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.m {
+  color: var(--m3-white, #ffffff);
+  text-align: center;
+  font-family: var(--m3-body-large-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--m3-body-large-font-size, 16px);
+  line-height: var(--m3-body-large-line-height, 24px);
+  letter-spacing: var(--m3-body-large-letter-spacing, 0.5px);
+  font-weight: var(--m3-body-large-font-weight, 400);
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.more {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.bienvenid {
+  color: #4130ff;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 96px;
+  font-weight: 400;
+  position: absolute;
+  left: 441px;
+  top: 94px;
+  width: 590px;
+  height: 131px;
+}
+.ingrese-correo {
+  color: #4130ff;
+  text-align: left;
+  font-family: "OpenSans-ExtraBold", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  position: absolute;
+  left: 580px;
+  top: 463px;
+}
+.ingrese-contrase-a {
+  color: #4130ff;
+  text-align: left;
+  font-family: "OpenSans-ExtraBold", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  position: absolute;
+  left: 529px;
+  top: 665px;
+}
+.correo {
+  background: #e1e1e1;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #9f9f9f;
+  border-width: 1px;
+  padding: 10px 6px 10px 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 312px;
+  position: absolute;
+  left: 580px;
+  top: 540px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.correo2 {
+  color: #aeaeae;
+  text-align: left;
+  font-family: "OpenSans-ExtraBold", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  position: relative;
+}
